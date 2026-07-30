@@ -1,0 +1,10 @@
+{
+  "name": "juniper-prayz-website",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Static GitHub Pages package for JUNIPER & PRAYZ",
+  "scripts": {
+    "check": "node scripts/verify-site.mjs",
+    "preview": "node scripts/preview-site.mjs"
+  }
+}
