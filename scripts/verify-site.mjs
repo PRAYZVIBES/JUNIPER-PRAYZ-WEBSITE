@@ -127,7 +127,6 @@ for (const file of [
   "robots.txt",
   "sitemap.xml",
   "site.webmanifest",
-  "CNAME.next",
   "images/juniper-prayz-south-africa.jpg",
   "images/juniper-prayz-og-photo.jpg",
   "images/identity/jp-wild-halo-mark.svg",
@@ -173,12 +172,16 @@ if (exists(".github/workflows/publish-pages.yml")) {
   }
 }
 
-if (exists("CNAME")) {
+if (exists("CNAME") && exists("CNAME.next")) {
+  errors.push("CNAME and CNAME.next must not exist at the same time");
+} else if (exists("CNAME")) {
   const domain = read("CNAME").trim();
   if (domain !== "www.juniperprayz.com") errors.push(`CNAME: unexpected domain ${domain}`);
   warnings.push("CNAME is active. Confirm that the controlled domain cutover is intended.");
-} else {
+} else if (exists("CNAME.next")) {
   warnings.push("CNAME is intentionally inactive; CNAME.next is ready for the later cutover.");
+} else {
+  errors.push("missing domain marker: expected CNAME or CNAME.next");
 }
 
 const publicSource = `${index}\n${script}\n${style}\n${read("pages/imprint.html")}\n${read("pages/privacy.html")}`;
