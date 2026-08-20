@@ -1,4 +1,4 @@
-# JUNIPER & PRAYZ — website replacement
+# JUNIPER & PRAYZ — Identity V2 website
 
 Complete static GitHub Pages package dated 20 August 2026.
 
@@ -14,14 +14,17 @@ Do not remove `CNAME` or `.nojekyll`.
 
 ## What changed
 
-- New busking and small-venue narrative
-- One type family: Instrument Sans
-- One label grammar: `SUBJECT / CONTEXT`
-- Four-logo identity family in PNG and editable SVG
-- Six-piece Pavement Edition merch line
+- New duo-first narrative: **Two people. No fourth wall.**
+- Editorial display typography: Instrument Serif
+- Clear body and interface typography: Instrument Sans
+- Distinct aubergine, coral, periwinkle and porcelain colour system
+- Four-logo identity family in transparent PNG and outlined editable SVG
+- Six-piece **In the Room** merch concept line
 - Consent-gated Instagram reels
 - English and German switch
 - Responsive, keyboard-accessible static build
+
+The new system deliberately avoids the PRAYZVIBES solo identity's field/road imagery, condensed headline typography and olive/gold palette. JUNIPER & PRAYZ is framed as an encounter between two performers and the room around them.
 
 ## Important
 

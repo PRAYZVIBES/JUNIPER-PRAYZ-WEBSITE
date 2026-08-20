@@ -1,22 +1,22 @@
-# Pavement Edition / Drop 01
+# In the Room — merch concept line
 
 Status: **concept and sample phase**
 
 ## Line
 
-1. **Road Halo Heavy Tee** — cream or ink body; quiet chest mark; large Road Halo back print.
-2. **Open Case Canvas Tote** — heavy natural canvas; two-color Open Case print; inside date stamp when the first run is approved.
-3. **Close Range Midweight Hoodie** — moss body; cream and gold front print; small Road Halo neck mark.
-4. **Good Noise Field Cap** — ink or moss; small embroidered rosette; no oversized wordmark.
-5. **Street Set Numbered Poster** — A3; “Songs without a backstage”; two-color risograph-style artwork.
-6. **Four Marks Patch & Sticker Set** — four emblems; patches simplified after embroidery testing.
+1. **Conversation Tee** — porcelain body; small front wordmark; large two-ring conversation symbol on the back.
+2. **Open Room Tote** — aubergine canvas; open-frame emblem; quiet side label.
+3. **Double Take Crew** — night body; compact mirrored monogram; no oversized artist name.
+4. **Ampersand Cap** — coral or night; minimal two-voice ampersand embroidery.
+5. **No Fourth Wall Poster** — editorial serif statement with duo photography and generous negative space.
+6. **Four Signatures Set** — sticker/postcard set presenting the four identity directions as collectible marks.
 
 ## Production order
 
 1. Request blank-garment and print samples.
-2. Test every logo at final physical size.
-3. Convert live SVG text to curves in Affinity.
-4. Approve thread/ink colors against the physical material.
+2. Test each logo at final physical size.
+3. Open the outlined SVGs in Affinity Designer and prepare supplier-specific spot colours.
+4. Approve thread, ink and fabric colours against physical material.
 5. Photograph the approved samples.
 6. Only then add prices, sizes, stock and checkout links to the website.
 

@@ -1,28 +1,34 @@
-# Four-logo system
+# Four-logo system — Identity V2
 
-All four marks are variants inside one identity. Road Halo is the master; the others are contextual emblems.
+All four marks belong to one editorial identity. **Conversation** is the master. The other three are deliberate alternatives for campaigns, merchandise and venue-specific contexts.
 
-## 01 — Road Halo
+## 01 — Conversation
 
-Master identity. Use on the website, posters, press material and the heavy tee.
+Primary wordmark. The interlocking coral and periwinkle rings make the ampersand a meeting point. Use for the website header, press materials, booking decks and primary social profiles.
 
-## 02 — Open Case
+## 02 — Double Take
 
-Busking emblem. Use on the canvas tote, street signs and case stickers.
+Mirrored monogram built around the two performers. Use for small applications, stamps, embroidered pieces and motion idents.
 
-## 03 — Close Range
+## 03 — Open Room
 
-Intimate live emblem. Use for listening-room shows, the hoodie and booking material.
+Spatial emblem with an open frame. Use for venue posters, listening-room events and access-focused communication.
 
-## 04 — Good Noise
+## 04 — Afterglow
 
-Community/merch emblem. Use on caps, patches and social posts around live moments.
+Loose circular signature with an expressive finish. Use for seasonal artwork, limited merchandise and softer acoustic moments.
 
 ## File formats
 
-- `.svg`: editable vector source with live Instrument Sans text
-- `.png`: 2400 × 2400 colored-background master
-- `-transparent.png`: 3000 × 3000 transparent version
-- `downloads/JUNIPER-PRAYZ-LOGO-KIT/affinity-ready`: editable SVG copies and the exact fonts for Affinity Designer
+- `/images/identity-v2`: web-ready PNGs used by the site
+- `/downloads/JUNIPER-PRAYZ-IDENTITY-V2/png`: transparent PNG exports
+- `/downloads/JUNIPER-PRAYZ-IDENTITY-V2/svg-editable`: true outlined SVG paths, editable without installed fonts
+- `/downloads/JUNIPER-PRAYZ-IDENTITY-V2/fonts`: exact font files and licences
 
-Keep clear space equal to the height of the ampersand around a full lockup. Do not stretch, add shadows, recolor individual pieces or combine two emblems into one lockup.
+## Usage rules
+
+- Keep clear space equal to the cap height of the letter J.
+- Preserve the proportions and two-voice colour relationship.
+- Use the light Conversation lockup on dark photography.
+- Do not add shadows, rustic textures or gold/olive recolours.
+- Do not mix a V2 mark with the retired Road Halo, Open Case, Close Range or Good Noise system.

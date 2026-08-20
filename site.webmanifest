@@ -1,1 +1,16 @@
-{"name":"JUNIPER & PRAYZ","short_name":"J&P","description":"Songs without a backstage.","start_url":"/","display":"standalone","background_color":"#15180f","theme_color":"#15180f","icons":[{"src":"/images/logos/logo-01-road-halo.png","sizes":"2400x2400","type":"image/png"}]}
+{
+  "name": "JUNIPER & PRAYZ",
+  "short_name": "J&P",
+  "description": "Two people. No fourth wall.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#151219",
+  "theme_color": "#24172e",
+  "icons": [
+    {
+      "src": "/images/identity-v2/jp-conversation-symbol.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

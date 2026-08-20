@@ -9,13 +9,16 @@
 - `images/reel-in-motion.jpg`
 - `images/reel-rudolstadt.jpg`
 
-These files were inherited from the previously approved JUNIPER & PRAYZ website exchange package. Their presence is not proof of copyright ownership, model release or unrestricted publication rights. Confirm photographer credit, licence and consent before launch.
+These files were inherited from the previously approved JUNIPER & PRAYZ website exchange package. Their presence is not proof of copyright ownership, model release or unrestricted publication rights. Confirm photographer credit, licence and consent before public use.
 
-## Original work in this package
+## Identity V2 work in this package
 
 - Website narrative and interface system
-- Road Halo, Open Case, Close Range and Good Noise logo artwork
-- Merch line concept and product placements
+- Conversation, Double Take, Open Room and Afterglow logo directions
+- Transparent PNG exports and outlined editable SVG exports
+- In the Room merch concepts and placements
+
+The V2 identity assets were generated specifically for this website package. The previous Road Halo, Open Case, Close Range and Good Noise concepts were removed from the current release; they remain recoverable through Git history and the pre-rebuild backup.
 
 ## External destinations
 

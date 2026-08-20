@@ -1,28 +1,37 @@
-# Narrative system
+# Narrative system — Identity V2
 
 ## Core proposition
 
-**JUNIPER & PRAYZ are a close-range live duo from Bavaria, built for streets and small places where a song cannot hide.**
+**JUNIPER & PRAYZ are an intimate live duo from Franconia. The songs begin with two people and become complete when the room answers.**
 
 ## Public line
 
-**Songs without a backstage.**
+**Two people. No fourth wall.**
 
-It works because it describes the format rather than inventing a genre biography. It can cover busking, cafés, gardens, listening rooms and small stages without making the project feel small.
+This is the central distinction from PRAYZVIBES. The solo project is a songwriter's world; JUNIPER & PRAYZ is a live relationship—between two performers, and between the performers and everyone close enough to hear.
 
 ## Supporting story
 
-On the street, a song has to earn attention. In a small room, it has to hold it. JUNIPER & PRAYZ keep the arrangement open enough for the place, people and weather to enter. The songs stay human. The set stays moving.
+We do not play at a room. We play with it. A glance changes the next line. A chorus grows because someone joins. A quiet table makes a soft song land differently. Whether the setting is a street corner, courtyard, garden, café or small stage, the set stays open enough for the place to enter.
+
+## Narrative territories
+
+- **Conversation:** two voices, two instincts, one changing set.
+- **Proximity:** close enough to see the decisions being made.
+- **Participation:** the room is part of the performance, never decoration.
+- **Elasticity:** arranged with intention, flexible in the moment.
+- **Afterglow:** what remains after the final note is human contact.
 
 ## Voice rules
 
 - Speak as two people: **we**, not a brand collective.
-- Use physical words: street, strings, room, air, weather, road, voice.
-- Keep sentences short and grounded.
-- Describe the setting and feeling before naming genres.
-- Never call busking a stepping stone. It is part of the artistic format.
-- Keep PRAYZVIBES as a related solo world, not as the duo's main narrative.
+- Prefer relational words: answer, listen, room, glance, together, close, change.
+- Use short, unforced sentences with warmth and wit.
+- Let the duo feel sophisticated without becoming distant.
+- Describe what happens in the room before naming a genre.
+- Treat busking and intimate venues as artistic formats, not stepping stones.
+- Keep PRAYZVIBES clearly related but narratively separate.
 
 ## Avoid
 
-“Universe”, “vibrations”, “authentic journey”, “magical moments”, “genre-defying”, invented awards, invented audience numbers, unconfirmed set durations and generic festival claims.
+Road, journey, universe, vibes, field imagery, “authentic”, “magical moments”, “genre-defying”, unverified biography, invented audience claims and generic festival language.
