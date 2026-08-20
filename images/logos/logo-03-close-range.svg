@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">JUNIPER &amp; PRAYZ Close Range logo</title>
+  <desc id="desc">Two figures meeting inside concentric sound rings above the JUNIPER &amp; PRAYZ wordmark.</desc>
+  <style>
+    .ink{fill:#15180f}.cream{fill:#f4ebd8}.gold{fill:#e7c96f}.moss{fill:#6d7949}.ring{fill:none;stroke:#15180f;stroke-width:48;stroke-linecap:round}
+    .brand{font:800 150px 'Instrument Sans',Arial,sans-serif;letter-spacing:-5px}.label{font:700 42px 'Instrument Sans',Arial,sans-serif;letter-spacing:12px}
+  </style>
+  <rect class="moss" width="1600" height="1600" rx="110"/>
+  <circle class="cream" cx="800" cy="620" r="420"/>
+  <path class="ring" d="M515 438a378 378 0 0 0 0 364M1085 438a378 378 0 0 1 0 364"/>
+  <path class="ring" d="M608 498a268 268 0 0 0 0 244M992 498a268 268 0 0 1 0 244"/>
+  <circle class="ink" cx="695" cy="585" r="73"/>
+  <circle class="gold" cx="905" cy="585" r="73"/>
+  <path class="ink" d="M557 888c18-143 77-226 138-226s120 83 138 226H557Z"/>
+  <path class="gold" d="M767 888c18-143 77-226 138-226s120 83 138 226H767Z"/>
+  <text x="800" y="1235" text-anchor="middle" class="cream brand">JUNIPER &amp; PRAYZ</text>
+  <text x="800" y="1335" text-anchor="middle" class="gold label">LIVE CLOSE / NO DISTANCE</text>
+</svg>

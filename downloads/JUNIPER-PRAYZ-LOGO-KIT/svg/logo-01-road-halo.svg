@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 1600" role="img" aria-labelledby="title desc">
+  <title id="title">JUNIPER &amp; PRAYZ Road Halo logo</title>
+  <desc id="desc">A circular road and sound symbol above the JUNIPER &amp; PRAYZ wordmark.</desc>
+  <style>
+    .ink{fill:#15180f}.cream{fill:#f4ebd8}.gold{fill:#e7c96f}.none{fill:none;stroke:#15180f;stroke-width:52;stroke-linecap:round;stroke-linejoin:round}
+    .brand{font:800 150px 'Instrument Sans',Arial,sans-serif;letter-spacing:-5px}.label{font:700 42px 'Instrument Sans',Arial,sans-serif;letter-spacing:12px}
+  </style>
+  <rect class="cream" width="1600" height="1600" rx="110"/>
+  <circle class="gold" cx="800" cy="610" r="405"/>
+  <circle class="none" cx="800" cy="610" r="405"/>
+  <path class="none" d="M800 226c-46 124-164 215-164 344 0 92 88 143 164 208 76-65 164-116 164-208 0-129-118-220-164-344Z"/>
+  <path class="none" d="M800 778c-84 83-151 157-151 237M800 778c84 83 151 157 151 237"/>
+  <circle class="ink" cx="800" cy="570" r="35"/>
+  <text x="800" y="1235" text-anchor="middle" class="ink brand">JUNIPER &amp; PRAYZ</text>
+  <text x="800" y="1335" text-anchor="middle" class="ink label">ROAD HALO / BAVARIA</text>
+</svg>
