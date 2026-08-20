@@ -7,6 +7,7 @@ Static bilingual website for the JUNIPER & PRAYZ live duo.
 - Fact-first description instead of a campaign narrative
 - Typographic artist name; no approved logo is presented
 - Live footage, performance formats and booking are the primary content
+- Live-date placeholders appear near the top and are explicitly marked as unconfirmed planning entries
 - Merchandise is a placeholder only
 - Store integration waits for a confirmed provider such as Fourthwall or Merchcowboy
 
