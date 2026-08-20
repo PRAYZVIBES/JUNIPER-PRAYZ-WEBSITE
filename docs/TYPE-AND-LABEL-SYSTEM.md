@@ -1,10 +1,10 @@
-# Type, label and colour system — Identity V2
+# Temporary type and colour system
 
 ## Typography
 
 ### Instrument Serif
 
-Use for expressive headlines, editorial quotations and the full wordmark. Its soft contrast and human irregularity make the duo feel intimate, cultural and contemporary.
+Use for headlines and the temporary typographic presentation of the artist name.
 
 - Display size: generous and responsive
 - Weight: regular
@@ -19,18 +19,19 @@ Use for navigation, body copy, buttons, captions, labels and practical informati
 - Navigation/buttons: 650–750
 - Labels: 650–750, uppercase, wider tracking
 
-The font files and their OFL licences are in `/fonts` and the downloadable identity kit.
+The font files and their OFL licences are in `/fonts`.
 
 ## Label grammar
 
-Labels act like small editorial stage directions. Use two concise ideas separated by a slash:
+Labels remain functional and descriptive:
 
-- `TWO PEOPLE / ONE ROOM`
-- `LIVE / UNPOLISHED`
-- `VOICE / GUITAR / RESPONSE`
-- `CONCEPT / SAMPLE PHASE`
+- `LIVE DUO / FRANCONIA`
+- `LIVE CLIPS`
+- `FORMATS`
+- `BOOKING`
+- `SHOP`
 
-Avoid PRAYZVIBES-style road coordinates or motivational slogans.
+Avoid campaign slogans and abstract concepts until the final identity is approved.
 
 ## Palette
 
@@ -41,4 +42,4 @@ Avoid PRAYZVIBES-style road coordinates or motivational slogans.
 - Periwinkle `#A9B6F4` — second voice and counterpoint
 - Mist `#DAD5DC` — quiet rules and supporting text
 
-Coral and periwinkle should often appear together, like two different voices in the same composition. Do not introduce olive, wheat, sunflower gold or rustic field tones into the core system.
+This palette belongs to the temporary website interface. It is not presented as a final artist identity or merchandise palette.

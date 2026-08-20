@@ -1,16 +1,9 @@
 {
   "name": "JUNIPER & PRAYZ",
   "short_name": "J&P",
-  "description": "Two people. No fourth wall.",
+  "description": "Live duo from Franconia.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#151219",
-  "theme_color": "#24172e",
-  "icons": [
-    {
-      "src": "/images/identity-v2/jp-conversation-symbol.png",
-      "sizes": "512x512",
-      "type": "image/png"
-    }
-  ]
+  "theme_color": "#24172e"
 }
