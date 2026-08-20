@@ -3,7 +3,6 @@
 ## Supplied/inherited photography
 
 - `images/juniper-prayz-south-africa.jpg`
-- `images/juniper-prayz-og-photo.jpg`
 - `images/reel-annafest-forchheim.jpg`
 - `images/reel-love-for-music.jpg`
 - `images/reel-in-motion.jpg`
