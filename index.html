@@ -49,8 +49,8 @@
     "description": "JUNIPER & PRAYZ spielen live beim Handwerkermarkt in Schönberg bei Lauf. Die Auftrittszeit wird noch bekanntgegeben."
   }
   </script>
-  <link rel="stylesheet" href="style.css?v=20260903-5">
-  <script defer src="script.js?v=20260903-5"></script>
+  <link rel="stylesheet" href="style.css?v=20260903-6">
+  <script defer src="script.js?v=20260903-6"></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-copy="a11y.skip">Skip to content</a>
@@ -158,14 +158,17 @@
 
     <section class="statement section" id="about" aria-labelledby="about-title">
       <div class="section-number" aria-hidden="true">02</div>
-      <div class="statement__lead" data-reveal>
-        <p class="label" data-copy="about.label">The duo</p>
-        <h2 id="about-title" data-copy="about.title">Live music for streets<br><em>and small venues.</em></h2>
-      </div>
-      <div class="statement__body" data-reveal>
-        <p data-copy="about.body">Juniper &amp; Prayz perform as a compact duo with voice, guitar and rhythm. The setup stays light and can be adapted to the place and occasion.</p>
-        <p class="pull-quote" data-copy="about.note">Based in Franconia. Available by arrangement.</p>
-      </div>
+      <a class="statement__booking-link" href="#book" aria-label="Book JUNIPER &amp; PRAYZ" data-copy-aria-label="about.bookingAria">
+        <div class="statement__lead" data-reveal>
+          <p class="label" data-copy="about.label">The duo</p>
+          <h2 id="about-title" data-copy="about.title">Live music for streets<br><em>and small venues.</em></h2>
+        </div>
+        <div class="statement__body" data-reveal>
+          <p data-copy="about.body">Juniper &amp; Prayz perform as a compact duo with voice, guitar and rhythm. The setup stays light and can be adapted to the place and occasion.</p>
+          <p class="pull-quote" data-copy="about.note">Based in Franconia. Available by arrangement.</p>
+          <span class="statement__booking-cta" data-copy="about.bookingCta">Go to booking ↘</span>
+        </div>
+      </a>
     </section>
 
     <section class="live-section section section--dark" id="live" aria-labelledby="live-title">
@@ -217,25 +220,29 @@
         <p data-copy="formats.intro">For booking, send the date, location, occasion and approximate audience size.</p>
       </div>
       <div class="format-grid">
-        <article class="format-card format-card--street" data-reveal>
+        <a class="format-card format-card--street" href="#book" aria-label="Book Street &amp; square" data-copy-aria-label="formats.streetBookingAria" data-reveal>
           <img class="format-card__image" src="images/format-street-square.jpg" width="1280" height="853" loading="lazy" alt="" aria-hidden="true">
           <span>01</span><h3 data-copy="formats.streetTitle">Street &amp; square</h3><p data-copy="formats.streetBody">A compact setup for public spaces and busking.</p>
-        </article>
-        <article class="format-card format-card--cafe" data-reveal>
+          <strong class="format-card__cta" data-copy="formats.bookingCta">Go to booking ↘</strong>
+        </a>
+        <a class="format-card format-card--cafe" href="#book" aria-label="Book Café &amp; garden" data-copy-aria-label="formats.cafeBookingAria" data-reveal>
           <img class="format-card__image" src="images/format-cafe-garden.jpg" width="1280" height="853" loading="lazy" alt="" aria-hidden="true">
           <span>02</span><h3 data-copy="formats.cafeTitle">Café &amp; garden</h3><p data-copy="formats.cafeBody">Acoustic or lightly amplified, depending on the space.</p>
-        </article>
-        <article class="format-card format-card--private" data-reveal>
+          <strong class="format-card__cta" data-copy="formats.bookingCta">Go to booking ↘</strong>
+        </a>
+        <a class="format-card format-card--private" href="#book" aria-label="Book Private gathering" data-copy-aria-label="formats.privateBookingAria" data-reveal>
           <img class="format-card__image" src="images/format-private-gathering.jpg" width="1280" height="854" loading="lazy" alt="" aria-hidden="true">
           <span>03</span><h3 data-copy="formats.privateTitle">Private gathering</h3><p data-copy="formats.privateBody">Music for celebrations and informal events.</p>
-        </article>
-        <article class="format-card format-card--venue" data-reveal>
+          <strong class="format-card__cta" data-copy="formats.bookingCta">Go to booking ↘</strong>
+        </a>
+        <a class="format-card format-card--venue" href="#book" aria-label="Book Small venue" data-copy-aria-label="formats.venueBookingAria" data-reveal>
           <img class="format-card__image" src="images/format-small-venue.jpg" width="1280" height="964" loading="lazy" alt="" aria-hidden="true">
           <span>04</span><h3 data-copy="formats.venueTitle">Small venue</h3><p data-copy="formats.venueBody">A duo set for clubs, cultural spaces and small stages.</p>
-        </article>
+          <strong class="format-card__cta" data-copy="formats.bookingCta">Go to booking ↘</strong>
+        </a>
         <article class="format-card--sofa" data-reveal>
           <div class="sofa-card__main">
-            <span class="sofa-card__number">05</span>
+            <a class="sofa-card__number" href="https://www.sofaconcerts.org/de/artists/PRAYZVIBES" target="_blank" rel="noopener noreferrer" aria-label="Book a JUNIPER &amp; PRAYZ house concert" data-copy-aria-label="formats.sofaBookingAria">05</a>
             <div class="sofa-card__copy">
               <p class="sofa-card__eyebrow" data-copy="formats.sofaEyebrow">House-concert booking</p>
               <h3 data-copy="formats.sofaTitle">House concert with JUNIPER &amp; PRAYZ</h3>
@@ -272,6 +279,7 @@
         <p data-copy="book.body">Please send the date, location, occasion, expected audience and available sound setup.</p>
         <a class="button button--dark" href="mailto:booking@prayzvibes.com?subject=JUNIPER%20%26%20PRAYZ%20booking%20request" data-booking-email data-copy="book.cta">Send booking request</a>
         <a class="book__email" href="mailto:booking@prayzvibes.com">booking@prayzvibes.com</a>
+        <a class="book__partner" href="https://www.prayzvibes.com/" target="_blank" rel="noopener noreferrer" data-copy="book.partner">Booking &amp; support by PRAYZVIBES.COM ↗</a>
       </div>
     </section>
   </main>
@@ -281,8 +289,8 @@
     <div class="footer__links">
       <a href="https://www.instagram.com/juniperprayz/" target="_blank" rel="noopener noreferrer">Instagram ↗</a>
       <a href="https://www.youtube.com/@juniperprayz" target="_blank" rel="noopener noreferrer">YouTube ↗</a>
-      <a href="https://www.prayzvibes.com/" target="_blank" rel="noopener noreferrer">PRAYZVIBES ↗</a>
     </div>
+    <a class="footer__partner" href="https://www.prayzvibes.com/" target="_blank" rel="noopener noreferrer"><span data-copy="footer.partnerLabel">Booking partner &amp; sponsor</span><strong>PRAYZVIBES.COM ↗</strong></a>
     <div class="footer__legal"><span>© <span data-current-year>2026</span> JUNIPER &amp; PRAYZ</span><a href="pages/imprint.html" data-copy="footer.imprint">Imprint</a><a href="pages/privacy.html" data-copy="footer.privacy">Privacy</a></div>
   </footer>
 
