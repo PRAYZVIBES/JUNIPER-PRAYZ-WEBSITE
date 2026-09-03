@@ -2,6 +2,12 @@
 
 Static bilingual website for the JUNIPER & PRAYZ live duo.
 
+## Current confirmed date
+
+- 13 September 2026: Handwerkermarkt Schönberg near Lauf a.d. Pegnitz
+- The performance time remains marked as pending until confirmed.
+- After the event, remove or replace the featured first row in `#dates`, update the signal line and remove the event JSON-LD block.
+
 ## Current public position
 
 - Fact-first description instead of a campaign narrative
