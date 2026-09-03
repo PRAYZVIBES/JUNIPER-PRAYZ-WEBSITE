@@ -49,24 +49,25 @@
     "description": "JUNIPER & PRAYZ spielen live beim Handwerkermarkt in Schönberg bei Lauf. Die Auftrittszeit wird noch bekanntgegeben."
   }
   </script>
-  <link rel="stylesheet" href="style.css?v=20260903-3">
-  <script defer src="script.js?v=20260903-3"></script>
+  <link rel="stylesheet" href="style.css?v=20260903-4">
+  <script defer src="script.js?v=20260903-4"></script>
 </head>
 <body>
   <a class="skip-link" href="#main" data-copy="a11y.skip">Skip to content</a>
 
   <header class="site-header" data-header>
-    <a class="brand" href="#top" aria-label="JUNIPER & PRAYZ home">
+    <a class="brand" href="#top" aria-label="JUNIPER & PRAYZ home" data-copy-aria-label="a11y.home">
       <span class="brand__name brand__name--header">JUNIPER <b>&amp;</b> PRAYZ</span>
     </a>
-    <nav class="main-nav" id="site-navigation" aria-label="Main navigation" data-nav>
+    <nav class="main-nav" id="site-navigation" aria-label="Main navigation" data-copy-aria-label="a11y.navigation" data-nav>
       <a href="#dates" data-copy="nav.dates">Dates</a>
       <a href="#live" data-copy="nav.live">Live</a>
       <a href="#formats" data-copy="nav.formats">Formats</a>
       <a href="#shop" data-copy="nav.shop">Shop</a>
+      <a class="main-nav__booking" href="#book" data-copy="nav.book">Booking</a>
     </nav>
     <div class="header-actions">
-      <div class="language-switch" aria-label="Language">
+      <div class="language-switch" aria-label="Language" data-copy-aria-label="a11y.language">
         <button type="button" class="is-active" data-language="en" aria-pressed="true">EN</button>
         <button type="button" data-language="de" aria-pressed="false">DE</button>
       </div>
@@ -92,7 +93,7 @@
       <figure class="hero__visual" data-reveal>
         <span class="hero__colour hero__colour--one" aria-hidden="true"></span>
         <span class="hero__colour hero__colour--two" aria-hidden="true"></span>
-        <img src="images/juniper-prayz-south-africa.jpg" width="640" height="618" alt="Juniper kissing Prayz outdoors">
+        <img src="images/juniper-prayz-south-africa.jpg" width="640" height="616" fetchpriority="high" alt="Juniper and Prayz outdoors" data-copy-alt="hero.imageAlt">
         <figcaption>
           <span>Juniper</span>
           <span>Prayz</span>
@@ -103,7 +104,7 @@
     </section>
 
     <div class="signal-line" aria-hidden="true">
-      <span>NEXT LIVE</span><i></i><span>13 SEP 2026</span><i></i><span>HANDWERKERMARKT SCHÖNBERG</span><i></i><span>J&amp;P</span>
+      <span data-copy="signal.next">NEXT LIVE</span><i></i><span data-copy="signal.date">13 SEP 2026</span><i></i><span>HANDWERKERMARKT SCHÖNBERG</span><i></i><span>J&amp;P</span>
     </div>
 
     <section class="dates section" id="dates" aria-labelledby="dates-title">
@@ -124,8 +125,8 @@
             <p data-copy="dates.schoenbergMeta">Schönberg near Lauf a.d. Pegnitz</p>
           </div>
           <div class="date-row__status">
-            <span data-copy="dates.schoenbergStatus">Close-range live set · show time to follow</span>
-            <a href="downloads/juniper-prayz-handwerkermarkt-schoenberg-2026-09-13.ics" download data-copy="dates.schoenbergCalendar">Save date ↘</a>
+            <span data-copy="dates.schoenbergStatus">Live performance · time to be announced</span>
+            <a href="downloads/juniper-prayz-handwerkermarkt-schoenberg-2026-09-13.ics" download data-copy="dates.schoenbergCalendar">Add to calendar (.ics) ↘</a>
           </div>
         </article>
         <article class="date-row" data-reveal>
@@ -179,28 +180,28 @@
       <div class="reel-grid">
         <article class="reel-card" data-reveal>
           <button type="button" class="reel-card__media" data-open-reel data-reel-id="DbU4mk4tBQ6" data-reel-title="Annafest / Forchheim">
-            <img src="images/reel-annafest-forchheim.jpg" width="361" height="640" loading="lazy" alt="Prayz performing at Annafest in Forchheim">
+            <img src="images/reel-annafest-forchheim.jpg" width="361" height="640" loading="lazy" alt="Prayz performing at Annafest in Forchheim" data-copy-alt="live.imageAlt1">
             <span class="reel-card__play" aria-hidden="true">PLAY ↗</span><span class="sr-only" data-copy="live.play">Play Instagram reel</span>
           </button>
           <div><span>01</span><h3>Annafest / Forchheim</h3><p data-copy="live.card1">Live at Annafest</p></div>
         </article>
         <article class="reel-card" data-reveal>
           <button type="button" class="reel-card__media" data-open-reel data-reel-id="DaSqJKgtTxD" data-reel-title="Love for music">
-            <img src="images/reel-love-for-music.jpg" width="361" height="640" loading="lazy" alt="Juniper and Prayz performing outdoors">
+            <img src="images/reel-love-for-music.jpg" width="361" height="640" loading="lazy" alt="Juniper and Prayz performing outdoors" data-copy-alt="live.imageAlt2">
             <span class="reel-card__play" aria-hidden="true">PLAY ↗</span><span class="sr-only" data-copy="live.play">Play Instagram reel</span>
           </button>
           <div><span>02</span><h3 data-copy="live.card2Title">Love for music</h3><p data-copy="live.card2">Outdoor performance</p></div>
         </article>
         <article class="reel-card" data-reveal>
           <button type="button" class="reel-card__media" data-open-reel data-reel-id="DbU52HUtS-R" data-reel-title="In motion">
-            <img src="images/reel-in-motion.jpg" width="361" height="640" loading="lazy" alt="Juniper and Prayz walking through a festival area">
+            <img src="images/reel-in-motion.jpg" width="361" height="640" loading="lazy" alt="Juniper and Prayz walking through a festival area" data-copy-alt="live.imageAlt3">
             <span class="reel-card__play" aria-hidden="true">PLAY ↗</span><span class="sr-only" data-copy="live.play">Play Instagram reel</span>
           </button>
           <div><span>03</span><h3 data-copy="live.card3Title">In motion</h3><p data-copy="live.card3">Between live sets</p></div>
         </article>
         <article class="reel-card" data-reveal>
           <button type="button" class="reel-card__media" data-open-reel data-reel-id="DbU5NqQNBdT" data-reel-title="Rudolstadt Festival">
-            <img src="images/reel-rudolstadt.jpg" width="360" height="640" loading="lazy" alt="Juniper performing beside the duo's festival sign">
+            <img src="images/reel-rudolstadt.jpg" width="360" height="640" loading="lazy" alt="Juniper performing beside the duo's festival sign" data-copy-alt="live.imageAlt4">
             <span class="reel-card__play" aria-hidden="true">PLAY ↗</span><span class="sr-only" data-copy="live.play">Play Instagram reel</span>
           </button>
           <div><span>04</span><h3>Rudolstadt Festival</h3><p data-copy="live.card4">Live at Rudolstadt Festival</p></div>
@@ -257,7 +258,7 @@
       <div data-reveal><p class="label" data-copy="book.label">Booking</p><h2 id="book-title" data-copy="book.title">Invite<br><em>JUNIPER &amp; PRAYZ.</em></h2></div>
       <div class="book__details" data-reveal>
         <p data-copy="book.body">Please send the date, location, occasion, expected audience and available sound setup.</p>
-        <a class="button button--dark" href="mailto:booking@prayzvibes.com?subject=JUNIPER%20%26%20PRAYZ%20booking%20request" data-copy="book.cta">Send booking request</a>
+        <a class="button button--dark" href="mailto:booking@prayzvibes.com?subject=JUNIPER%20%26%20PRAYZ%20booking%20request" data-booking-email data-copy="book.cta">Send booking request</a>
         <a class="book__email" href="mailto:booking@prayzvibes.com">booking@prayzvibes.com</a>
       </div>
     </section>
@@ -274,7 +275,7 @@
   </footer>
 
   <dialog class="media-dialog" data-media-dialog aria-labelledby="media-title">
-    <button class="media-dialog__close" type="button" data-close-media aria-label="Close">×</button>
+    <button class="media-dialog__close" type="button" data-close-media aria-label="Close" data-copy-aria-label="a11y.close">×</button>
     <div class="media-dialog__frame" data-media-frame></div>
     <div class="media-dialog__copy"><h2 id="media-title" data-media-title>Live clip</h2><p data-copy="media.notice">Playing this reel connects your browser to Instagram. Instagram’s privacy terms then apply.</p><a data-media-link href="https://www.instagram.com/juniperprayz/" target="_blank" rel="noopener noreferrer" data-copy="media.open">Open on Instagram ↗</a></div>
   </dialog>
