@@ -1,64 +1,84 @@
 const copy = {
-  en: {
-    'a11y.skip':'Skip to content','a11y.menu':'Open menu','a11y.menuClose':'Close menu','a11y.navigation':'Main navigation','a11y.language':'Language','a11y.close':'Close','a11y.home':'JUNIPER & PRAYZ home','page.title':'JUNIPER & PRAYZ — BEIDES. Live in Franconia','nav.dates':'Dates','nav.live':'Live','nav.formats':'Formats','nav.shop':'Shop','nav.book':'Booking',
-    'hero.label':'Two voices / live duo','hero.intro':'Two voices. More than one side. Voice, guitar and rhythm — live on streets, in cafés and gardens, at private gatherings and on small stages.','hero.dates':'13 Sep · Schönberg','hero.watch':'Watch live clips <span aria-hidden="true">↘</span>','hero.caption':'Live in Franconia','hero.imageAlt':'Juniper and Prayz outdoors',
-    'signal.next':'NEXT LIVE','signal.date':'13 SEP 2026','dates.label':'Live dates','dates.title':'Shows and<br><em>plans.</em>','dates.note':'Our next confirmed live date is in Schönberg. Further appearances are being planned.','dates.schoenbergBadge':'Confirmed','dates.schoenbergDate':'13 Sep 2026','dates.schoenbergTitle':'Handwerkermarkt Schönberg','dates.schoenbergMeta':'Schönberg near Lauf a.d. Pegnitz','dates.schoenbergStatus':'Live performance · time to be announced','dates.schoenbergCalendar':'Add to calendar (.ics) ↘','dates.tba':'Date TBA','dates.tourTba':'Dates TBA','dates.rudolstadtTitle':'Rudolstadt Festival','dates.rudolstadtMeta':'Rudolstadt, Germany / 2027','dates.rudolstadtStatus':'Festival appearance / placeholder','dates.bardTitle':'Bardentreffen','dates.bardMeta':'Nuremberg, Germany / 2027','dates.bardStatus':'City festival / placeholder','dates.tourTitle':'Southern Europe busking tour','dates.tourMeta':'Southern Europe / winter','dates.tourStatus':'Route and dates in planning',
-    'about.label':'The duo','about.title':'Two voices.<br><em>More than one side.</em>','about.body':'Juniper & Prayz bring voice, guitar and rhythm together without choosing only one mood. Their compact setup moves easily between streets, cafés, gardens, celebrations and small stages.','about.note':'BEIDES. — close enough to feel, strong enough for a stage.','about.bookingCta':'Go to booking ↘','about.bookingAria':'Book JUNIPER & PRAYZ',
-    'live.label':'Live clips','live.title':'Recent<br><em>performances.</em>','live.intro':'Four short clips from streets, festivals and outdoor shows.','live.play':'Play Instagram reel','live.card1':'Live at Annafest','live.card2Title':'Love for music','live.card2':'Outdoor performance','live.card3Title':'In motion','live.card3':'Between live sets','live.card4':'Live at Rudolstadt Festival','live.privacy':'Instagram connects only after you choose a reel.','live.imageAlt1':'Prayz performing at Annafest in Forchheim','live.imageAlt2':'Juniper and Prayz performing outdoors','live.imageAlt3':'Juniper and Prayz walking through a festival area','live.imageAlt4':'Juniper performing beside the duo’s festival sign',
-    'formats.label':'Formats','formats.title':'Where we<br><em>play.</em>','formats.intro':'For booking, send the date, location, occasion and approximate audience size.','formats.bookingCta':'Go to booking ↘','formats.streetBookingAria':'Book Street & square','formats.cafeBookingAria':'Book Café & garden','formats.privateBookingAria':'Book Private gathering','formats.venueBookingAria':'Book Small venue','formats.sofaBookingAria':'Book a JUNIPER & PRAYZ house concert','formats.streetTitle':'Street & square','formats.streetBody':'A compact setup for public spaces and busking.','formats.cafeTitle':'Café & garden','formats.cafeBody':'Acoustic or lightly amplified, depending on the space.','formats.privateTitle':'Private gathering','formats.privateBody':'Music for celebrations and informal events.','formats.venueTitle':'Small venue','formats.venueBody':'A duo set for clubs, cultural spaces and small stages.','formats.sofaEyebrow':'House-concert booking','formats.sofaTitle':'House concert with JUNIPER & PRAYZ','formats.sofaBody':'Invite the duo into your living room, garden or another intimate setting. Booking is handled through the PRAYZVIBES artist profile on SofaConcerts.','formats.sofaNote':'Important: Please write “JUNIPER & PRAYZ” in your enquiry so the booking can be assigned to the duo.','formats.sofaPromoKicker':'Booking via','formats.sofaPromoBody':'Discover PRAYZVIBES and send your house-concert request directly through the SofaConcerts profile.','formats.sofaCta':'Request a house concert ↗','formats.sofaWebsite':'Visit PRAYZVIBES.COM ↗',
-    'shop.label':'Shop','shop.title':'Merch will<br><em>follow later.</em>','shop.body':'The shop is on hold until the right production and fulfilment partner has been selected. This section will connect directly to the finished store when it is ready.','shop.status':'Store integration not active',
-    'book.label':'Booking','book.title':'Invite<br><em>JUNIPER & PRAYZ.</em>','book.body':'Please send the date, location, occasion, expected audience and available sound setup.','book.cta':'Send booking request','book.subject':'JUNIPER & PRAYZ booking request','book.partner':'Booking & support by PRAYZVIBES.COM ↗','footer.line':'BEIDES. · Live in Franconia','footer.partnerLabel':'Booking partner & sponsor','footer.imprint':'Imprint','footer.privacy':'Privacy','media.notice':'Playing this reel connects your browser to Instagram. Instagram’s privacy terms then apply.','media.open':'Open on Instagram ↗'
-  },
   de: {
-    'a11y.skip':'Zum Inhalt springen','a11y.menu':'Menü öffnen','a11y.menuClose':'Schließen','a11y.navigation':'Hauptnavigation','a11y.language':'Sprache','a11y.close':'Schließen','a11y.home':'Startseite von JUNIPER & PRAYZ','page.title':'JUNIPER & PRAYZ — BEIDES. Live in Franken','nav.dates':'Termine','nav.live':'Live','nav.formats':'Formate','nav.shop':'Shop','nav.book':'Booking',
-    'hero.label':'Zwei Stimmen / Live-Duo','hero.intro':'Zwei Stimmen. Mehr als eine Seite. Stimme, Gitarre und Rhythmus — live auf Straßen, in Cafés und Gärten, bei privaten Feiern und auf kleinen Bühnen.','hero.dates':'13. Sep · Schönberg','hero.watch':'Live-Clips ansehen <span aria-hidden="true">↘</span>','hero.caption':'Live in Franken','hero.imageAlt':'Juniper und Prayz im Freien',
-    'signal.next':'NÄCHSTER TERMIN','signal.date':'13. SEP 2026','dates.label':'Live-Termine','dates.title':'Auftritte und<br><em>Pläne.</em>','dates.note':'Unser nächster bestätigter Live-Termin ist in Schönberg. Weitere Auftritte sind in Planung.','dates.schoenbergBadge':'Bestätigt','dates.schoenbergDate':'13. Sep 2026','dates.schoenbergTitle':'Handwerkermarkt Schönberg','dates.schoenbergMeta':'Schönberg bei Lauf a.d. Pegnitz','dates.schoenbergStatus':'Live-Auftritt · Uhrzeit folgt','dates.schoenbergCalendar':'Zum Kalender hinzufügen (.ics) ↘','dates.tba':'Termin folgt','dates.tourTba':'Termine folgen','dates.rudolstadtTitle':'Rudolstadt Festival','dates.rudolstadtMeta':'Rudolstadt, Deutschland / 2027','dates.rudolstadtStatus':'Festival-Auftritt / Platzhalter','dates.bardTitle':'Bardentreffen','dates.bardMeta':'Nürnberg, Deutschland / 2027','dates.bardStatus':'Stadtfestival / Platzhalter','dates.tourTitle':'Straßenmusik-Tour durch Südeuropa','dates.tourMeta':'Südeuropa / Winter','dates.tourStatus':'Route und Termine in Planung',
-    'about.label':'Das Duo','about.title':'Zwei Stimmen.<br><em>Mehr als eine Seite.</em>','about.body':'Juniper & Prayz verbinden Stimme, Gitarre und Rhythmus, ohne sich für nur eine Stimmung zu entscheiden. Das kompakte Setup bewegt sich leicht zwischen Straße, Café, Garten, Feier und kleiner Bühne.','about.note':'BEIDES. — nah genug zum Fühlen, stark genug für die Bühne.','about.bookingCta':'Zum Booking ↘','about.bookingAria':'JUNIPER & PRAYZ buchen',
-    'live.label':'Live-Clips','live.title':'Aktuelle<br><em>Auftritte.</em>','live.intro':'Vier kurze Clips von Straßen, Festivals und Open-Air-Auftritten.','live.play':'Instagram-Reel abspielen','live.card1':'Live auf dem Annafest','live.card2Title':'Love for music','live.card2':'Open-Air-Auftritt','live.card3Title':'Unterwegs','live.card3':'Zwischen zwei Auftritten','live.card4':'Live beim Rudolstadt Festival','live.privacy':'Instagram wird erst verbunden, wenn du ein Reel auswählst.','live.imageAlt1':'Prayz bei einem Auftritt auf dem Annafest in Forchheim','live.imageAlt2':'Juniper und Prayz bei einem Auftritt im Freien','live.imageAlt3':'Juniper und Prayz auf einem Festivalgelände','live.imageAlt4':'Juniper neben dem Festivalschild des Duos',
-    'formats.label':'Formate','formats.title':'Wo wir<br><em>spielen.</em>','formats.intro':'Für eine Anfrage brauchen wir Datum, Ort, Anlass und die ungefähre Gästezahl.','formats.bookingCta':'Zum Booking ↘','formats.streetBookingAria':'Straße & Platz buchen','formats.cafeBookingAria':'Café & Garten buchen','formats.privateBookingAria':'Private Feier buchen','formats.venueBookingAria':'Kleine Bühne buchen','formats.sofaBookingAria':'Sofakonzert mit JUNIPER & PRAYZ buchen','formats.streetTitle':'Straße & Platz','formats.streetBody':'Ein kompaktes Setup für öffentliche Plätze und Straßenmusik.','formats.cafeTitle':'Café & Garten','formats.cafeBody':'Akustisch oder leicht verstärkt – je nach Raum.','formats.privateTitle':'Private Feier','formats.privateBody':'Musik für Feiern und persönliche Veranstaltungen.','formats.venueTitle':'Kleine Bühne','formats.venueBody':'Ein Duo-Set für Clubs, Kulturorte und kleine Bühnen.','formats.sofaEyebrow':'Sofakonzert-Buchung','formats.sofaTitle':'Sofakonzert mit JUNIPER & PRAYZ','formats.sofaBody':'Holt euch das Duo ins Wohnzimmer, in den Garten oder an einen anderen persönlichen Ort. Die Buchung läuft über das PRAYZVIBES-Künstlerprofil bei SofaConcerts.','formats.sofaNote':'Wichtig: Bitte schreibt in die Anfrage ausdrücklich „JUNIPER & PRAYZ“, damit die Buchung dem Duo zugeordnet werden kann.','formats.sofaPromoKicker':'Buchung über','formats.sofaPromoBody':'Entdeckt PRAYZVIBES und sendet eure Sofakonzert-Anfrage direkt über das Profil bei SofaConcerts.','formats.sofaCta':'Sofakonzert anfragen ↗','formats.sofaWebsite':'PRAYZVIBES.COM besuchen ↗',
-    'shop.label':'Shop','shop.title':'Merch kommt<br><em>später.</em>','shop.body':'Der Shop bleibt geschlossen, bis Produktion und Versand mit einem passenden Partner geklärt sind. Sobald alles steht, wird dieser Bereich direkt mit dem fertigen Store verbunden.','shop.status':'Shop-Anbindung noch nicht aktiv',
-    'book.label':'Booking','book.title':'JUNIPER & PRAYZ<br><em>anfragen.</em>','book.body':'Schickt uns bitte Datum, Ort, Anlass, ungefähre Gästezahl und Informationen zur vorhandenen Tontechnik.','book.cta':'Booking-Anfrage senden','book.subject':'JUNIPER & PRAYZ Booking-Anfrage','book.partner':'Buchung & Support über PRAYZVIBES.COM ↗','footer.line':'BEIDES. · Live in Franken','footer.partnerLabel':'Booking-Partner & Sponsor','footer.imprint':'Impressum','footer.privacy':'Datenschutz','media.notice':'Beim Abspielen verbindet sich dein Browser mit Instagram. Dann gelten die Datenschutzbedingungen von Instagram.','media.open':'Auf Instagram öffnen ↗'
+    'a11y.skip':'Zum Inhalt springen','a11y.menu':'Menü öffnen','a11y.menuClose':'Menü schließen','a11y.navigation':'Hauptnavigation','a11y.language':'Sprache','a11y.close':'Schließen','a11y.home':'Startseite von JUNIPER & PRAYZ','page.title':'JUNIPER & PRAYZ — BEIDES. Live in Franken',
+    'nav.duo':'Das Duo','nav.dates':'Termine','nav.live':'Live','nav.formats':'Formate','nav.shop':'Shop','nav.book':'Buchen',
+    'hero.kicker':'JUNIPER & PRAYZ / LIVE-DUO','hero.line':'Zwei Stimmen. Mehr als eine Seite.','hero.body':'Stimme, Gitarre und Rhythmus – direkt, nah und ohne große Bühne dazwischen. Live in Franken und überall dort, wo Menschen wirklich zuhören.','hero.book':'Das Duo buchen','hero.watch':'Live ansehen ↘','hero.imageAlt':'Juniper und Prayz im Freien','hero.photoNote':'Juniper + Prayz / unterwegs','hero.next':'Nächster Auftritt','hero.dateAria':'Nächster Auftritt am 13. September in Schönberg',
+    'dates.kicker':'ALS NÄCHSTES','dates.title':'Wir sehen uns<br><span>in Schönberg.</span>','dates.dateAria':'13. September 2026','dates.confirmed':'BESTÄTIGT / UHRZEIT FOLGT','dates.schoenbergTitle':'Handwerkermarkt Schönberg','dates.schoenbergMeta':'Schönberg bei Lauf a.d. Pegnitz','dates.calendar':'Kalender','dates.calendarAria':'Termin zum Kalender hinzufügen','dates.plansLabel':'UND DANACH? DAS IST IN PLANUNG:','dates.bard':'Bardentreffen Nürnberg / 2027','dates.tour':'Straßenmusik-Tour Südeuropa / Winter',
+    'duo.kicker':'DAS DUO','duo.title':'Mal leise.<br>Mal rau.<br><em>Immer nah.</em>','duo.body':'Juniper & Prayz verbinden zwei Stimmen mit Gitarre und Rhythmus. Kompakt genug für die Straße, persönlich genug fürs Wohnzimmer und stark genug für die Bühne.','duo.cta':'DAS DUO BUCHEN ↘','duo.bookingAria':'JUNIPER & PRAYZ buchen',
+    'live.kicker':'ECHT LIVE','live.title':'Nicht erklären.<br><span>Ansehen.</span>','live.intro':'Vier Momente von Straßen, Festivals und Open-Air-Auftritten.','live.play':'Instagram-Reel abspielen','live.card1':'Live auf dem Annafest','live.card2':'Open-Air-Auftritt','live.card3Title':'Unterwegs','live.card3':'Zwischen zwei Auftritten','live.card4':'Live beim Rudolstadt Festival','live.privacy':'Instagram wird erst verbunden, wenn du ein Reel auswählst.','live.imageAlt1':'Prayz bei einem Auftritt auf dem Annafest in Forchheim','live.imageAlt2':'Juniper und Prayz bei einem Auftritt im Freien','live.imageAlt3':'Juniper und Prayz auf einem Festivalgelände','live.imageAlt4':'Juniper neben dem Festivalschild des Duos',
+    'formats.kicker':'WO WIR SPIELEN','formats.title':'Vier Orte.<br><span>Ein echtes Konzert.</span>','formats.intro':'Auf eine Karte tippen und direkt eine Anfrage für dieses Format senden.','formats.street':'Straße & Platz','formats.streetBody':'Direkt, beweglich und mitten im Leben.','formats.cafe':'Café & Garten','formats.cafeBody':'Akustisch oder fein verstärkt.','formats.private':'Private Feier','formats.privateBody':'Nah an euch und eurem Moment.','formats.venue':'Kleine Bühne','formats.venueBody':'Ein Duo-Set mit voller Präsenz.','formats.streetAria':'Straße und Platz buchen','formats.cafeAria':'Café und Garten buchen','formats.privateAria':'Private Feier buchen','formats.venueAria':'Kleine Bühne buchen',
+    'sofa.kicker':'GANZ NAH','sofa.title':'Ein Konzert<br>bei euch.','sofa.body':'Holt JUNIPER & PRAYZ ins Wohnzimmer, in den Garten oder an einen anderen persönlichen Ort.','sofa.note':'Bitte schreibt in die Anfrage ausdrücklich „JUNIPER & PRAYZ“, damit sie dem Duo zugeordnet werden kann.','sofa.partnerKicker':'BUCHUNG ÜBER','sofa.partnerBody':'Die Sofakonzert-Anfrage läuft über das PRAYZVIBES-Profil bei SofaConcerts.','sofa.cta':'SOFAKONZERT ANFRAGEN ↗','sofa.website':'PRAYZVIBES.COM BESUCHEN ↗',
+    'shop.kicker':'MERCH / IN ARBEIT','shop.title':'Zum Anziehen.<br><span>Bald.</span>','shop.body':'Wir arbeiten an einem kleinen, ehrlichen Merch-Sortiment. Der Shop öffnet erst, wenn Material, Druck und Versand wirklich zu JUNIPER & PRAYZ passen.','shop.status':'SHOP NOCH GESCHLOSSEN',
+    'booking.kicker':'BOOKING','booking.title':'Passt zu euch?<br><span>Dann schreibt uns.</span>','booking.body':'Nennt uns Datum, Ort, Anlass, ungefähre Gästezahl und – falls vorhanden – Informationen zur Tontechnik.','booking.cta':'BOOKING-ANFRAGE','booking.subject':'JUNIPER & PRAYZ Booking-Anfrage','booking.partner':'BOOKING & SUPPORT ÜBER PRAYZVIBES.COM ↗',
+    'footer.line':'Zwei Stimmen. Live in Franken.','footer.partner':'BOOKING-PARTNER & SPONSOR','footer.imprint':'Impressum','footer.privacy':'Datenschutz',
+    'media.notice':'Beim Abspielen verbindet sich dein Browser mit Instagram. Dann gelten die Datenschutzbedingungen von Instagram.','media.open':'AUF INSTAGRAM ÖFFNEN ↗'
+  },
+  en: {
+    'a11y.skip':'Skip to content','a11y.menu':'Open menu','a11y.menuClose':'Close menu','a11y.navigation':'Main navigation','a11y.language':'Language','a11y.close':'Close','a11y.home':'JUNIPER & PRAYZ home','page.title':'JUNIPER & PRAYZ — BEIDES. Live in Franconia',
+    'nav.duo':'The duo','nav.dates':'Dates','nav.live':'Live','nav.formats':'Formats','nav.shop':'Shop','nav.book':'Book us',
+    'hero.kicker':'JUNIPER & PRAYZ / LIVE DUO','hero.line':'Two voices. More than one side.','hero.body':'Voice, guitar and rhythm – direct, close and without a big stage in between. Live in Franconia and wherever people truly listen.','hero.book':'Book the duo','hero.watch':'Watch us live ↘','hero.imageAlt':'Juniper and Prayz outdoors','hero.photoNote':'Juniper + Prayz / on the road','hero.next':'Next show','hero.dateAria':'Next performance on 13 September in Schönberg',
+    'dates.kicker':'UP NEXT','dates.title':'See you<br><span>in Schönberg.</span>','dates.dateAria':'13 September 2026','dates.confirmed':'CONFIRMED / TIME TO FOLLOW','dates.schoenbergTitle':'Handwerkermarkt Schönberg','dates.schoenbergMeta':'Schönberg near Lauf a.d. Pegnitz','dates.calendar':'Calendar','dates.calendarAria':'Add this date to your calendar','dates.plansLabel':'AND AFTER THAT? CURRENTLY PLANNED:','dates.bard':'Bardentreffen Nuremberg / 2027','dates.tour':'Southern Europe busking tour / winter',
+    'duo.kicker':'THE DUO','duo.title':'Sometimes soft.<br>Sometimes raw.<br><em>Always close.</em>','duo.body':'Juniper & Prayz bring two voices together with guitar and rhythm. Compact enough for the street, personal enough for a living room and strong enough for the stage.','duo.cta':'BOOK THE DUO ↘','duo.bookingAria':'Book JUNIPER & PRAYZ',
+    'live.kicker':'TRULY LIVE','live.title':'Don’t explain.<br><span>Watch.</span>','live.intro':'Four moments from streets, festivals and outdoor performances.','live.play':'Play Instagram reel','live.card1':'Live at Annafest','live.card2':'Outdoor performance','live.card3Title':'On the road','live.card3':'Between two shows','live.card4':'Live at Rudolstadt Festival','live.privacy':'Instagram connects only after you choose a reel.','live.imageAlt1':'Prayz performing at Annafest in Forchheim','live.imageAlt2':'Juniper and Prayz performing outdoors','live.imageAlt3':'Juniper and Prayz at a festival site','live.imageAlt4':'Juniper beside the duo’s festival sign',
+    'formats.kicker':'WHERE WE PLAY','formats.title':'Four places.<br><span>One real concert.</span>','formats.intro':'Choose a card to go directly to a booking request for that format.','formats.street':'Street & square','formats.streetBody':'Direct, mobile and in the middle of life.','formats.cafe':'Café & garden','formats.cafeBody':'Acoustic or gently amplified.','formats.private':'Private gathering','formats.privateBody':'Close to you and your moment.','formats.venue':'Small venue','formats.venueBody':'A duo set with a full presence.','formats.streetAria':'Book street and square performance','formats.cafeAria':'Book café and garden performance','formats.privateAria':'Book a private gathering','formats.venueAria':'Book a small venue performance',
+    'sofa.kicker':'UP CLOSE','sofa.title':'A concert<br>at your place.','sofa.body':'Invite JUNIPER & PRAYZ into your living room, garden or another personal setting.','sofa.note':'Please write “JUNIPER & PRAYZ” in your enquiry so it can be assigned to the duo.','sofa.partnerKicker':'BOOKING VIA','sofa.partnerBody':'House-concert enquiries are handled through the PRAYZVIBES profile on SofaConcerts.','sofa.cta':'REQUEST A HOUSE CONCERT ↗','sofa.website':'VISIT PRAYZVIBES.COM ↗',
+    'shop.kicker':'MERCH / IN PROGRESS','shop.title':'Wear it.<br><span>Soon.</span>','shop.body':'We are working on a small, honest merch collection. The shop will open only when the materials, print and shipping truly fit JUNIPER & PRAYZ.','shop.status':'SHOP STILL CLOSED',
+    'booking.kicker':'BOOKING','booking.title':'Feels right?<br><span>Write to us.</span>','booking.body':'Tell us the date, location, occasion, approximate audience size and – if available – details about the sound setup.','booking.cta':'BOOKING ENQUIRY','booking.subject':'JUNIPER & PRAYZ booking enquiry','booking.partner':'BOOKING & SUPPORT VIA PRAYZVIBES.COM ↗',
+    'footer.line':'Two voices. Live in Franconia.','footer.partner':'BOOKING PARTNER & SPONSOR','footer.imprint':'Imprint','footer.privacy':'Privacy',
+    'media.notice':'Playing this reel connects your browser to Instagram. Instagram’s privacy terms then apply.','media.open':'OPEN ON INSTAGRAM ↗'
   }
 };
 
 const languageButtons = document.querySelectorAll('[data-language]');
+
 const updateMenuLabel = (language) => {
   const button = document.querySelector('[data-menu-toggle]');
   const label = button?.querySelector('.sr-only');
   if (!button || !label) return;
   const key = button.getAttribute('aria-expanded') === 'true' ? 'a11y.menuClose' : 'a11y.menu';
-  label.textContent = copy[language]?.[key] || copy.en[key];
+  label.textContent = copy[language]?.[key] || copy.de[key];
 };
+
 const applyLanguage = (language) => {
-  const lang = copy[language] ? language : 'en';
+  const lang = copy[language] ? language : 'de';
   document.documentElement.lang = lang;
+
   document.querySelectorAll('[data-copy]').forEach((node) => {
     const value = copy[lang][node.dataset.copy];
     if (value) node.innerHTML = value;
   });
+
   document.querySelectorAll('[data-copy-aria-label]').forEach((node) => {
     const value = copy[lang][node.dataset.copyAriaLabel];
     if (value) node.setAttribute('aria-label', value);
   });
+
   document.querySelectorAll('[data-copy-alt]').forEach((node) => {
     const value = copy[lang][node.dataset.copyAlt];
     if (value) node.setAttribute('alt', value);
   });
+
   if (!document.body.classList.contains('subpage')) document.title = copy[lang]['page.title'];
+
   document.querySelectorAll('[data-booking-email]').forEach((link) => {
-    link.href = `mailto:booking@prayzvibes.com?subject=${encodeURIComponent(copy[lang]['book.subject'])}`;
+    link.href = `mailto:booking@prayzvibes.com?subject=${encodeURIComponent(copy[lang]['booking.subject'])}`;
   });
+
   languageButtons.forEach((button) => {
     const active = button.dataset.language === lang;
     button.classList.toggle('is-active', active);
     button.setAttribute('aria-pressed', String(active));
   });
+
   updateMenuLabel(lang);
   try { localStorage.setItem('juniper-prayz-language', lang); } catch (_) {}
 };
 
-let initialLanguage = 'en';
-try { initialLanguage = localStorage.getItem('juniper-prayz-language') || (navigator.language.toLowerCase().startsWith('de') ? 'de' : 'en'); } catch (_) {}
+let initialLanguage = 'de';
+try {
+  const storedLanguage = localStorage.getItem('juniper-prayz-language');
+  initialLanguage = storedLanguage || (navigator.language.toLowerCase().startsWith('en') ? 'en' : 'de');
+} catch (_) {}
 applyLanguage(initialLanguage);
 languageButtons.forEach((button) => button.addEventListener('click', () => applyLanguage(button.dataset.language)));
 
@@ -69,22 +89,24 @@ window.addEventListener('scroll', updateHeader, { passive: true });
 
 const nav = document.querySelector('[data-nav]');
 const menuButton = document.querySelector('[data-menu-toggle]');
+
+const closeMenu = () => {
+  nav?.classList.remove('is-open');
+  menuButton?.setAttribute('aria-expanded', 'false');
+  updateMenuLabel(document.documentElement.lang);
+};
+
 menuButton?.addEventListener('click', () => {
   const open = nav.classList.toggle('is-open');
   menuButton.setAttribute('aria-expanded', String(open));
   updateMenuLabel(document.documentElement.lang);
   if (open) nav.querySelector('a')?.focus();
 });
-nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', () => {
-  nav.classList.remove('is-open');
-  menuButton?.setAttribute('aria-expanded', 'false');
-  updateMenuLabel(document.documentElement.lang);
-}));
+
+nav?.querySelectorAll('a').forEach((link) => link.addEventListener('click', closeMenu));
 document.addEventListener('keydown', (event) => {
   if (event.key !== 'Escape' || !nav?.classList.contains('is-open')) return;
-  nav.classList.remove('is-open');
-  menuButton?.setAttribute('aria-expanded', 'false');
-  updateMenuLabel(document.documentElement.lang);
+  closeMenu();
   menuButton?.focus();
 });
 
@@ -94,7 +116,10 @@ if (reduceMotion || !('IntersectionObserver' in window)) {
   document.querySelectorAll('[data-reveal]').forEach((node) => node.classList.add('is-visible'));
 } else {
   const reveal = new IntersectionObserver((entries) => entries.forEach((entry) => {
-    if (entry.isIntersecting) { entry.target.classList.add('is-visible'); reveal.unobserve(entry.target); }
+    if (entry.isIntersecting) {
+      entry.target.classList.add('is-visible');
+      reveal.unobserve(entry.target);
+    }
   }), { threshold: .08, rootMargin: '0px 0px -40px' });
   document.querySelectorAll('[data-reveal]').forEach((node) => reveal.observe(node));
 }
@@ -104,6 +129,7 @@ const frame = document.querySelector('[data-media-frame]');
 const mediaTitle = document.querySelector('[data-media-title]');
 const mediaLink = document.querySelector('[data-media-link]');
 let lastTrigger = null;
+
 document.querySelectorAll('[data-open-reel]').forEach((button) => button.addEventListener('click', () => {
   lastTrigger = button;
   const id = button.dataset.reelId;
@@ -114,11 +140,13 @@ document.querySelectorAll('[data-open-reel]').forEach((button) => button.addEven
   frame.innerHTML = `<iframe title="${title}" src="${url}embed" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen loading="eager"></iframe>`;
   dialog.showModal();
 }));
+
 const closeMedia = () => {
   frame.innerHTML = '';
   if (dialog?.open) dialog.close();
   lastTrigger?.focus();
 };
+
 document.querySelector('[data-close-media]')?.addEventListener('click', closeMedia);
 dialog?.addEventListener('click', (event) => { if (event.target === dialog) closeMedia(); });
 dialog?.addEventListener('cancel', (event) => { event.preventDefault(); closeMedia(); });

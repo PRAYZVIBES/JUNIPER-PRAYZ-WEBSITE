@@ -1,15 +1,26 @@
-# Temporary type and colour system
+# Working type and label system
 
 ## Typography
 
+### Shantell Sans
+
+Use for the artist name, human headlines and direct emotional statements.
+
+- Weight: 600–700
+- Line height: 0.82–1.05
+- Keep tracking tight but readable
+
+### Knewave
+
+Use for `BEIDES.`, energetic words, numbers and individual calls to action. Do not use it for body copy.
+
+### Mr Dafoe
+
+Use only for the SofaConcerts sub-lock-up and occasional signatures.
+
 ### Instrument Serif
 
-Use for headlines and the temporary typographic presentation of the artist name.
-
-- Display size: generous and responsive
-- Weight: regular
-- Style: italic only for an occasional emotional turn
-- Line height: 0.9–1.0
+Use sparingly for longer emotional copy where a quieter voice helps.
 
 ### Instrument Sans
 
@@ -31,7 +42,7 @@ Labels remain functional and descriptive:
 - `BOOKING`
 - `SHOP`
 
-Avoid campaign slogans and abstract concepts until the final identity is approved.
+Keep labels short and factual. `BEIDES.` is the single main statement; do not add competing campaign slogans.
 
 ## Palette
 
@@ -42,4 +53,4 @@ Avoid campaign slogans and abstract concepts until the final identity is approve
 - Periwinkle `#A9B6F4` — second voice and counterpoint
 - Mist `#DAD5DC` — quiet rules and supporting text
 
-This palette belongs to the temporary website interface. It is not presented as a final artist identity or merchandise palette.
+The website may add ochre `#F3BD4F` as a live-poster accent. Merchandise and printed banners still require physical colour proofs.
