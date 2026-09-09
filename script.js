@@ -29,6 +29,36 @@ const copy = {
   }
 };
 
+// S09: keep the German brand line in both language versions.
+Object.assign(copy.de, {
+  'page.title': 'JUNIPER & PRAYZ — Ganz hier. Ganz leicht.',
+  'hero.kicker': 'AKUSTIK-DUO / AUS FRANKEN',
+  'hero.body': 'Zwei Stimmen, zwei Gitarren und die Freude, Musik zu teilen. Auf der Straße, im Wohnzimmer und auf kleinen Bühnen. Verwurzelt in Franken. Offen für die Welt.',
+  'hero.artAlt': 'Ein Pferd, ein Gleitschirm, zwei Akustikgitarren und zwei Mikrofone in Waldgrün, Sattelbraun, Thermikblau und Schirmgold',
+  'hero.artNote': 'Mit beiden Füßen hier. Mit dem Herzen im Freien.',
+  'shop.title': 'Ein Stück<br><span>Leichtigkeit.</span>',
+  'shop.body': 'Pferd und Gleitschirm, zwei Gitarren und ein gemeinsames Gefühl. Unser neues Motiv verbindet Junipers Freiheit beim Reiten mit Prayz’ Freude am Fliegen – und unserer Liebe zur Musik.',
+  'shop.plan': 'In Vorbereitung: Shirts, Stoffbeutel und kleine Kunstkarten. Farben aus Wald, Leder, Himmel und Sonne.',
+  'shop.status': 'KOLLEKTION IN VORBEREITUNG',
+  'shop.availability': 'Der Online-Shop ist noch nicht geöffnet. Verfügbarkeit und Preise folgen nach der Druckfreigabe.',
+  'shop.cta': 'Interesse am Merch? Schreib uns ↗',
+  'shop.imageAlt': 'Das neue JUNIPER & PRAYZ Motiv für die geplante Kollektion'
+});
+Object.assign(copy.en, {
+  'page.title': 'JUNIPER & PRAYZ — Ganz hier. Ganz leicht.',
+  'hero.kicker': 'ACOUSTIC DUO / FROM FRANCONIA',
+  'hero.body': 'Two voices, two guitars and the joy of sharing music. In the street, in your living room and on small stages. Rooted in Franconia. Open to the world.',
+  'hero.artAlt': 'A horse, a paraglider, two acoustic guitars and two microphones in forest green, saddle brown, sky blue and canopy gold',
+  'hero.artNote': 'Feet on the ground. Hearts out in the open.',
+  'shop.title': 'A little<br><span>lightness.</span>',
+  'shop.body': 'A horse and a paraglider, two guitars and a shared feeling. Our new artwork brings together Juniper’s freedom in riding, Prayz’s joy in flying and our love of music.',
+  'shop.plan': 'In development: shirts, tote bags and little art cards. Colours from the forest, leather, sky and sunshine.',
+  'shop.status': 'COLLECTION IN DEVELOPMENT',
+  'shop.availability': 'The online shop is not open yet. Availability and prices will follow once the print is approved.',
+  'shop.cta': 'Interested in the merch? Write to us ↗',
+  'shop.imageAlt': 'The new JUNIPER & PRAYZ artwork for the planned collection'
+});
+
 const languageButtons = document.querySelectorAll('[data-language]');
 
 const updateMenuLabel = (language) => {

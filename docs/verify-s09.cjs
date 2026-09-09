@@ -1,0 +1,34 @@
+const fs = require('node:fs');
+const path = require('node:path');
+const vm = require('node:vm');
+const assert = require('node:assert/strict');
+const root = path.resolve(__dirname, '..');
+const html = fs.readFileSync(path.join(root, 'index.html'), 'utf8');
+const js = fs.readFileSync(path.join(root, 'script.js'), 'utf8');
+const css = fs.readFileSync(path.join(root, 'style.css'), 'utf8');
+const ids = [...html.matchAll(/\bid="([^"]+)"/g)].map(x => x[1]);
+assert.equal(new Set(ids).size, ids.length, 'Duplicate HTML IDs');
+let localLinks = 0;
+for (const [,ref] of html.matchAll(/\b(?:href|src)="([^"]+)"/g)) {
+  if (/^(https?:|mailto:|data:)/.test(ref)) continue;
+  if (ref.startsWith('#')) assert(ids.includes(ref.slice(1)), `Missing anchor ${ref}`);
+  else assert(fs.existsSync(path.join(root, ref.split(/[?#]/)[0])), `Missing asset ${ref}`);
+  localLinks++;
+}
+const context = vm.createContext({});
+vm.runInContext(js.split('const languageButtons =')[0] + '\nglobalThis.catalog = copy;', context);
+const keys = [...html.matchAll(/data-copy(?:-alt|-aria-label)?="([^"]+)"/g)].map(x=>x[1]);
+for (const lang of ['de', 'en']) for (const key of keys) assert(context.catalog[lang][key], `${lang}: ${key}`);
+assert.equal((html.match(/class="format-card" href="#booking"/g)||[]).length, 4);
+assert(html.includes('id="sofakonzerte"'));
+assert(html.includes('https://www.sofaconcerts.org/de/artists/PRAYZVIBES'));
+assert(!html.includes('juniper-prayz-shop.fourthwall.com'), 'Do not link closed shop');
+assert.equal((css.match(/@font-face/g)||[]).length, 3);
+for (const color of ['#244A3F','#935638','#5AADD0','#F2B84B','#F4EEE3']) assert(css.includes(color));
+for (const [,url] of css.matchAll(/url\("([^"]+)"\)/g)) assert(fs.existsSync(path.join(root,url)),url);
+assert.equal((css.match(/{/g)||[]).length,(css.match(/}/g)||[]).length);
+const event = JSON.parse(html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/)[1]);
+assert.equal(event.startDate,'2026-09-13');
+const ics=fs.readFileSync(path.join(root,'downloads/juniper-prayz-handwerkermarkt-schoenberg-2026-09-13.ics'),'utf8');
+assert(ics.includes('20260913'));
+console.log(JSON.stringify({localLinks,translationKeys:keys.length,languages:2,formatBookingLinks:4,fonts:3,paletteColors:5,eventDate:event.startDate,status:'PASS - static checks only; not browser visual QA'},null,2));
